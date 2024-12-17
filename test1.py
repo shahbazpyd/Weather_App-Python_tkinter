@@ -25,12 +25,12 @@ def data_fetch():
 
 # Create main application window
 root = tk.Tk()
-root.title("Shahbaz Weather App")  # Set window title
+root.title("Shahbaz App")  # Set window title
 root.configure(background="light blue")  # Set background color
 
 
 # Create and place main label
-msg_label = tk.Label(root, text="Shahbaz Weather App", width=50, font=("Arial", 18))  # Main app label
+msg_label = tk.Label(root, text="Know More Weather", width=50, font=("Arial", 18))  # Main app label
 msg_label.grid(row=0, column=0, columnspan=2, padx=10, pady=10)  # Position the label
 
 
@@ -74,6 +74,7 @@ pres_label.grid(row=7, column=0)
 
 pres_label2 = tk.Label(root, text="", font=("bold", 15), width=25) # Label to display pressure data
 pres_label2.grid(row=7, column=1, pady=10)
+
 
 
 # Create and place the "Done" button
